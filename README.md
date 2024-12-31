@@ -6,4 +6,12 @@ The main reason to store it here is:
 - Create solutions to have code base to future consultation;
 - See my progress;  
 
+### Files Content
+- ListIteration.java
+    - Create a list of ids
+    - Create a HashMap using the ID's
+    - Use HashMap methods
+    - Create scenarios to iterate over lists
+    - Print the result
+
 Fell free to create new scripts and open PR's to merge to my repo.
