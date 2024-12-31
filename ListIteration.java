@@ -18,6 +18,13 @@ public class ListIteration {
   }
 
   public static void main(String[] args) {
+    // Main idea:
+    // Create a list of ids
+    // Create a HashMap using the ID's
+    // Use HashMap methods
+    // Create scenarios to iterate over lists
+    // Print the result
+
     List<Integer> ids = List.of(1, 2, 3, 4, 5, 6);
     Map<Integer, Product> productMap = new HashMap<>();
 
