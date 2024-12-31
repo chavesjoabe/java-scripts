@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-public class Main {
+public class ListIteration {
   public static double generatePrice(int value) {
     double minRandom = 10;
     double maxRandom = 30;
