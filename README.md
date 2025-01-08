@@ -13,5 +13,9 @@ The main reason to store it here is:
     - Use HashMap methods
     - Create scenarios to iterate over lists
     - Print the result
+- HasDuplicatedChars
+    - Create a function that identifies if a given word has duplicated chars
+    - If the word is "abc" the function will return false
+    - If the word is "aba" the function will return true
 
 Fell free to create new scripts and open PR's to merge to my repo.
