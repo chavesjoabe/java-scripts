@@ -28,13 +28,7 @@ public class ListIteration {
     Map<Integer, Product> productMap = new HashMap<>();
 
     ids.forEach(id -> {
-      productMap
-          .put(
-              id,
-              new Product(
-                  id,
-                  "Product_" + id,
-                  generatePrice(id)));
+      productMap.put(id, new Product(id, "Product_" + id, generatePrice(id)));
     });
 
     List<Integer> toApproveIds = List.of(2, 4, 5);
@@ -118,7 +112,8 @@ class Product {
 
   @Override
   public String toString() {
-    return "Product{id=" + id + ", name=" + name + ", isApproved=" + isApproved + ", price=" + price + ", finalPrice=" + finalPrice + "}";
+    return "Product{id=" + id + ", name=" + name + ", isApproved=" + isApproved + ", price=" + price + ", finalPrice="
+        + finalPrice + "}";
   }
 }
 
